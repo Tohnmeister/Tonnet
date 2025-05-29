@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<Authors>Tonni Tielens</Authors>
+		<Description>Collection of useful C# classes and functions that help
+		with a broad set of problems. Ranging from working with containers to
+		functional programming.</Description>
+		<PackageLicenseExpression>MIT</PackageLicenseExpression>
+		<PackageProjectUrl>https://github.com/Tohnmeister/Tonnet</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/Tohnmeister/Tonnet</RepositoryUrl>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<InternalsVisibleTo Include="Tonnet.Tests" />
+	</ItemGroup>
+</Project>
