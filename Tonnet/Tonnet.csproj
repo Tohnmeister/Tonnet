@@ -4,15 +4,25 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<Authors>Tonni Tielens</Authors>
-		<Description>Collection of useful C# classes and functions that help
-		with a broad set of problems. Ranging from working with containers to
-		functional programming.</Description>
+		<Description>Collection of useful C# classes and functions that help with a broad set of problems. Ranging from working with containers to functional programming.</Description>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<PackageProjectUrl>https://github.com/Tohnmeister/Tonnet</PackageProjectUrl>
 		<RepositoryUrl>https://github.com/Tohnmeister/Tonnet</RepositoryUrl>
+		<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+		<Title>Tonnet</Title>
+		<Company>Tonni Tielens Software</Company>
+		<PackageReadmeFile>README.md</PackageReadmeFile>
+		<PackageTags>dotnet;utility;helpers;extensions;core;common;library</PackageTags>
 	</PropertyGroup>
 
 	<ItemGroup>
 		<InternalsVisibleTo Include="Tonnet.Tests" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <None Include="..\README.md">
+	    <Pack>True</Pack>
+	    <PackagePath>\</PackagePath>
+	  </None>
 	</ItemGroup>
 </Project>
